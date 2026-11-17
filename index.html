@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 5 Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="calculator">
+        <h1>Калькулятор</h1>
+        <form>
+            <div>
+                <label>Выберите товар</label>
+                <select id="product" name="product">
+                    <option value="100">Кукуруза = 100 руб.</option>
+                    <option value="41298335">Т55АМД-1 = 41 298 335 руб.</option>
+                    <option value="8422">sony ericsson k800i = 8 422 руб.</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Количество товара</label>
+                <input type="text" id="amount" name="amount" placeholder="Введите Количество">
+            </div>
+
+            <button type="button" id="calculate-btn">Рассчитать стоимость</button>
+        </form>
+    </div>
+
+    <div id="result"></div>
+</body>
+</html>
